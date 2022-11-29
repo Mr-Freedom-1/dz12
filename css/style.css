@@ -90,6 +90,11 @@ main{
     margin-left: 3px;
 }
 
+.header-nav-useful-tel a:active{
+    font-weight: 700;
+    font-size: 10px;
+}
+
 .header-title{
     margin-top: 47px;
     font-family: 'Roboto'; 
@@ -209,6 +214,11 @@ footer{
     gap: 15px;
 }
 
+.footer-info-nav button:active{
+    font-weight: 700;
+    font-size: 12px;
+}
+
 .footer-info-schedule{
     font-family: 'Roboto';
     font-style: normal;
@@ -231,10 +241,6 @@ footer{
 .footer-info-nav button{
     border: none;
     background: none;
-}
-
-.footer-info-nav button:active{
-    font-weight: 700;
 }
 
 .footer-contacts{
