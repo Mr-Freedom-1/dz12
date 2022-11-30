@@ -12,26 +12,35 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="header-nav" id="head">
+        <div class="background">
+            <div class="container">
+                <div class="header-nav" id="head">
                 <div class="header-nav-logo">
-                    <img src="img/Logo.png" alt="">
+                    <picture>
+                        <source srcset="img/Logo-Desktop.png" media="(min-width: 480px)">
+                        <img src="img/Logo.png" alt="Logo">
+                    </picture>
                     <p>
                         DR. NIKOLA TESLA <br> <span>dentist</span>
                     </p>
                 </div>
                 <nav class="header-nav-anchor">
-                    <a href="#">Main</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contacts</a>
+                    <a href="#main">Main</a>
+                    <a href="#services">Services</a>
+                    <a href="#contacts">Contacts</a>
                 </nav>
                 <div class="header-nav-useful">
                     <div class="header-nav-useful-tel">
-                        <img src="img/phone-in-talk.png" alt="">
+                        <picture>
+                            <source srcset="img/phone-in-talk-desktop.png" media="(min-width: 480px)">
+                            <img src="img/phone-in-talk.png" alt="mobile phone"> 
+                        </picture>
                         <a href="tel:+380996500005">+38 (099) 650-00-05</a>
                     </div>
-                    <button>UA</button>
-                    <button>EN</button>
+                    <div class="header-nav-useful-button">
+                        <button>UA</button>
+                        <button>EN</button>
+                    </div>
                 </div>
             </div>
             <div class="header-title">
@@ -48,30 +57,34 @@
                     <button class="header-title-button-1">CALL</button>
                     <button class="header-title-button-2">SERVICES</button>
                 </div>
-                <img class="header-title-img" src="img/Girl.png" alt="">
+                <picture>
+                    <source srcset="img/Girl-Desktop.png" media="(min-width: 480px)">
+                    <img class="header-title-img" src="img/Girl.png" alt="girl">
+                </picture>      
             </div>
-            <div class="header-achievements">
+        </div>
+            <div class="header-achievements" id="main">
                 <div>
-                    <p>
+                    <p class="header-achievements-number">
                         15
                     </p>
-                    <p>
+                    <p class="header-achievements-text">
                         years providing services for dental treatment for adults and children
                     </p>
                 </div>
                 <div>
-                    <p>
+                    <p class="header-achievements-number">
                         90%
                     </p>
-                    <p>
-                        clients apply to me again
+                    <p class="header-achievements-text">
+                        clients apply <br> to me again
                     </p>
                 </div>
                 <div>
-                    <p>
+                    <p class="header-achievements-number">
                         12
                     </p>
-                    <p>
+                    <p class="header-achievements-text">
                         months warranty for the services provided
                     </p>
                 </div>
@@ -79,173 +92,196 @@
         </div>
     </header> 
     <main>
-        <section>
-            <div>
+        <section class="choose">
+            <div class="choose-text">
                 <h2>
                     WHY YOU SHOULD CHOOSE <span>EXACTLY ME?</span> 
                 </h2>
                 <p>
                     Over 15 years of professional experience! More than 2000 people have 
-                    used my services! More than 70% of patients apply for recommendations
+                    used my <br> services! More than 70% of patients apply for recommendations
                 </p>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <p>
+            <div class="choose-blocks">
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number">
                             01
                         </p>
-                        <p>
-                            MODERN EQUIPMENT
+                        <p class="choose-block-title-text">
+                            MODERN <br> EQUIPMENT
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         I use exclusively updated and most modern equipment - everything for the health of my patients
                     </p>
                 </div>
-                <div>
-                    <div>
-                        <p> 
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number"> 
                             02
                         </p>
-                        <p>
-                            INTERESTS OF THE CLIENT FIRST OF ALL
+                        <p class="choose-block-title-text">
+                            INTERESTS OF THE <br> CLIENT FIRST OF ALL
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         My task is to find a convenient time for you and build an individual treatment plan.
                     </p>
                 </div>
-                <div>
-                    <div>
-                        <p>
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number">
                             03
                         </p>
-                        <p>
-                            PROFESSIONAL DENTIST
+                        <p class="choose-block-title-text">
+                            PROFESSIONAL <br> DENTIST
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         I have a lot of experience and improve my skills every year.
                     </p>
                 </div>
-                <div>
-                    <div>
-                        <p>
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number">
                             04
                         </p>
-                        <p>
-                            DENTAL TREATMENT WITHOUT PAIN
+                        <p class="choose-block-title-text">
+                            DENTAL TREATMENT <br> WITHOUT PAIN
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         I use high-quality anesthetics so that you do not feel pain at all
                     </p>
                 </div>
-                <div>
-                    <div>
-                        <p>
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number">
                             05
                         </p>
-                        <p>
-                            COMFORTABLE AND COZY ENVIRONMENT
+                        <p class="choose-block-title-text">
+                            COMFORTABLE AND <br> COZY ENVIRONMENT
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         Created a very convenient and friendly environment to make you feel at home
                     </p>
                 </div>
-                <div>
-                    <div>
-                        <p>
+                <div class="choose-block">
+                    <div class="choose-block-title">
+                        <p class="choose-block-title-number"> 
                             06
                         </p>
-                        <p>
-                            FIRST CONSU LTATION FREE OF CHARGE
+                        <p class="choose-block-title-text">
+                            FIRST CONSU LTATION <br> FREE OF CHARGE
                         </p>
                     </div>
-                    <p>
+                    <p class="choose-block-text">
                         You will receive a complete diagnosis, and we will develop a complete individual treatment plan
                     </p>
                 </div>
             </div>
         </section>
         <section>
-            <div>
-                <div>
-                    <p>
+            <div class="form" id="services">
+                <div class="form-info">
+                    <p class="form-info-title">
                         Make an appointment
                     </p>
-                    <p>
+                    <p class="form-info-text">
                         Fill out the form and we will contact you to make an appointment
                     </p>
                 </div>
-                <div>
-
+                <div class="form-input">
+                    <form action="post">
+                        <div class="form-input-1">
+                            <label for="name"><img src="img/user.png" alt="user"></label>
+                            <input id="name" type="text" placeholder="Your name">
+                        </div>
+                        <div class="form-input-1">
+                            <label for="tel"><img src="img/phone-talk.png" alt="phone"></label>
+                            <input id="tel" type="text" placeholder="Phone number" maxlength="13">
+                        </div>
+                        <button type="submit">SIGN UP</button>
+                    </form>
                 </div>
-            </div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+            </div> 
+            <div class="form-img">
+                <img src="img/foto-1.png" alt="foto-1">
+                <img src="img/foto-2.png" alt="foto-2">
+                <img src="img/foto-3.png" alt="foto-3">
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div>
-                <div class="footer-logo">
-                    <img src="img/Logo-footer.png" alt="">
-                    <p>
-                        DR. NIKOLA TESLA <br> <span>dentist</span>
-                    </p>
-                </div>
-                <div class="footer-info">
-                    <div class="footer-info-nav">
-                        <a href="#head">Home</a>
-                        <a href="#service">Services</a>
-                        <div>
-                            <button>UA</button>
-                                    |
-                            <button>EN</button>
+            <div class="wraper">
+                <div class="footer-name">
+                    <div class="footer-logo">
+                        <picture>
+                            <source srcset="img/Logo-footer-desktop.png" media="(min-width: 480px)">
+                            <img src="img/Logo-footer.png" alt="Logo">
+                        </picture>
+                        <p>
+                            DR. NIKOLA TESLA <br> <span>dentist</span>
+                        </p>
+                    </div>
+                    <div class="footer-info">
+                        <div class="footer-info-nav">
+                            <a href="#head">Home</a>
+                            <a href="#service">Services</a>
+                            <div>
+                                <button>UA</button>
+                                <button>EN</button>
+                            </div>
+                        </div>
+                        <div class="footer-info-schedule">
+                            <p class="footer-info-schedule-1">
+                                Working hours:
+                            </p>
+                            <p class="footer-info-schedule-2">
+                                Mon-Fri: <br> 9:00-19:00
+                            </p>
                         </div>
                     </div>
-                    <div class="footer-info-schedule">
-                        <p class="footer-info-schedule-1">
-                            Working hours:
-                        </p>
-                        <p class="footer-info-schedule-2">
-                            Mon-Fri: <br> 9:00-19:00
-                        </p>
+                </div>
+                <div class="footer-contacts" id="contacts">
+                    <p class="footer-contacts-title">
+                        <span>CONTACTS</span> 
+                    </p>
+                    <p class="footer-contacts-name">
+                        Nikola Tesla
+                    </p>
+                    <p class="footer-contacts-address">
+                        339 5th Ave, New York
+                    </p>
+                    <div class="footer-contacts-1">
+                        <picture>
+                            <source srcset="img/phone-telephone-desktop.png" media="(min-width: 480px)">
+                            <img src="img/tel.png" alt="Phone">
+                        </picture>
+                        <a href="tel:+380996500005">+38 (099) 650-00-05</a>
                     </div>
-                </div>
-            </div>
-            <div class="footer-contacts">
-                <p class="footer-contacts-title">
-                    <span>CONTACTS</span> 
-                </p>
-                <p class="footer-contacts-name">
-                    Nikola Tesla
-                </p>
-                <p class="footer-contacts-address">
-                    339 5th Ave, New York
-                </p>
-                <div class="footer-contacts-1">
-                    <img src="img/tel.png" alt="">
-                    <a href="tel:+380996500005">+38 (099) 650-00-05</a>
-                </div>
-                <div class="footer-contacts-messengers">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                <div class="footer-contacts-3">
-                    <img src="img/instagram.png" alt="">
-                    <a href="https://instagram.com/glebster_potter_10?igshid=YmMyMTA2M2Y=">dr.NikTes</a>
-                </div>
-                <div>
-                    <img src="img/email.png" alt="">
-                    <a href="mailto:dr.niktes@gmail.com">dr.niktes@gmail.com</a>
+                    <div class="footer-contacts-messengers">
+                        <a href="#"><img src="img/viber.png" alt="Viber"></a>
+                        <a href="#"><img src="img/telegram.png" alt="Telegram"></a>
+                        <a href="#"><img src="img/whatsapp.png" alt="Whatsapp"></a>
+                    </div>
+                    <div class="footer-contacts-3">
+                        <picture>
+                            <source srcset="img/instagram-desktop.png" media="(min-width: 480px)">
+                            <img src="img/instagram.png" alt="Instagram">
+                        </picture>
+                        <a href="https://instagram.com/glebster_potter_10?igshid=YmMyMTA2M2Y=">dr.NikTes</a>
+                    </div>
+                    <div class="footer-contacts-4">
+                        <picture>
+                            <source srcset="img/Email-desktop.png" media="(min-width: 480px)">
+                            <img src="img/email.png" alt="Email">
+                        </picture>
+                        <a href="mailto:dr.niktes@gmail.com">dr.niktes@gmail.com</a>
+                    </div>
                 </div>
             </div>
             <p class="footer-contacts-copiright">&#169 Copyright 2022</p>
