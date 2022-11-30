@@ -325,6 +325,10 @@ footer{
         display: initial;
     } 
 
+    .footer-contacts-messengers img{
+        display: initial;
+    }
+
     .container{
         max-width: 1180px;
         padding: 0 30px;
